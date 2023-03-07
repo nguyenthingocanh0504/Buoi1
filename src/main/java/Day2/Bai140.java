@@ -26,7 +26,7 @@ public class Bai140 {
         }
 
         float min = arr1[0];
-        for (int i = ; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             if (min > arr1[i] && arr1[i] > 0){
                 min = arr1[i];
             }
